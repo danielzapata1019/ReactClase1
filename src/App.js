@@ -6,9 +6,9 @@ import Header from './Componentes/Header';
 import Footer from './Componentes/Footer';
 import Main from './Componentes/Paginas/Main';
 
-const miFuncion=(valor)=>{
+/*const miFuncion=(valor)=>{
   return valor*2;
-}
+}*/
 
 function App() {
   return (

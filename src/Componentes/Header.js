@@ -7,8 +7,8 @@ class Header extends Component {
 
   render() {
     return (
-      <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">{this.props.Nombre}</a>
+      <nav className="navbar navbar-dark bg-dark">
+        <a className="navbar-brand" href="#">{this.props.Nombre}</a>
         <a  href="/Login" className="item-menu">Login</a>
         <a  href="/Register" className="item-menu">Registrarse</a>            
       </nav>

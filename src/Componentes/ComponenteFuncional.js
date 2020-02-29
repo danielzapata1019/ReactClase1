@@ -27,3 +27,15 @@ export const Foto = props => {
     </div>
   );
 };
+
+export const InformacionPersona =(props)=>{
+  return (
+    <div className="">
+      <label>Nombre {props.nombre}</label>
+      <br></br>
+      <label>Correo {props.correo}</label>
+      <br></br>
+      <img alt="" src={props.imagen}></img>
+    </div>
+  )
+}
