@@ -10,10 +10,18 @@ import Main from './Componentes/Paginas/Main';
   return valor*2;
 }*/
 
+const ObtenerFecha=()=>{  
+  var dia = new Date().getDate(); 
+  var mes = new Date().getMonth() + 1;
+  var anio = new Date().getFullYear();
+  let fechaCorta= dia+'/'+mes+'/'+anio;
+  return fechaCorta;
+}
+
 function App() {
   return (
     <div className="App">
-      <Header Nombre="Mi React"></Header>
+      <Header Nombre="Mi React" Fecha={ObtenerFecha()}></Header>
       <Main></Main>
       <Footer></Footer>
      {/* <Foto NombreFoto="MiFoto"></Foto>
